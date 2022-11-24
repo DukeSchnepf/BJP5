@@ -1,0 +1,13 @@
+// Excercise 2.8 spacedNumbers
+
+String k = " ";
+
+for(int i = 1; i <= 5; i++)         
+{
+    for(int l = 4; l >= i; l--)      
+    {                               
+        System.out.print(k);  
+    }
+    System.out.print(i);
+    System.out.println("");
+}
