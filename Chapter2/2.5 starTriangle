@@ -1,0 +1,10 @@
+// Exercise 2.5 starTriangle
+
+for(int i = 1; i <= 5; i++)         //Creates the 5 lines required by the question with a simple for loop
+{
+    for(int l = 1; l < i; l++)      //When I is equal to 1 the condition is met so it prints the star once then adds one to l 
+    {                               //making the condition not met then makes a new line and set I equal to 2 then repeats the
+        System.out.print("*");      //the printing of the star twice and so fourth until it gets to 5 where the intial for statement
+    }                               //is met stopping the program.    
+    System.out.println("");
+}
