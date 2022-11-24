@@ -1,4 +1,4 @@
-// Exercise 2.7 numberTriangle
+// Exercise 2.6 numberTriangle
 
 for(int i = 1; i <= 7; i++)               // First difference from starTriangle is setting this to repeat seven times making 
 {                                         // seven lines
