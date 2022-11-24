@@ -1,0 +1,23 @@
+//Excercise 1.8 Stewie2
+
+public class Stewie2
+{
+    public static void main(String[] args)
+    {
+        Top();
+        Stewie();
+        Stewie();
+        Stewie();
+        Stewie();
+        Stewie();
+    }
+    public static void Top()
+    {
+        System.out.println("//////////////////////");
+    }
+    public static void Stewie()
+    {
+        System.out.println("|| Victory is mine! ||");
+        System.out.println("\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\");
+    }
+}
