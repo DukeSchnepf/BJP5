@@ -1,0 +1,14 @@
+// Exercise 2.2 fibonacci
+
+int f0 = 1;                                 // First Two Of The Sequence to start things
+int f1 = 1;
+
+System.out.print(f0 + " ");                 // Prints the two
+System.out.print(f1 + " ");
+
+for(int fk = 2; fk <= 144; fk = f1 + f0)    // F of K is equal to 2 which is the 3rd number in the sequence repeat until fk is equal to or less than
+{                                           // 144 which are ending
+    System.out.print(fk + " ");             // Prints F of K which is 2 plus the space
+    f0 = f1;                                // F of Zero is now equal to F of One which is still one but F of One is equal to F of K which is equal to
+    f1 = fk;                                // two at this time so when it repeats F of one is 2 and F of zero is 1 then prints F of K which is now 3
+}
