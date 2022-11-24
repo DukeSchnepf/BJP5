@@ -1,0 +1,10 @@
+// Exercise 2.4 starSquare
+
+for(int i = 1; i <= 4; i++)           // This for Loop will repeat 4 times
+{
+    for(int l = 1; l <= 5; l++)       // This for loop will repeat 5 times
+    {
+        System.out.print("*");        // will print * each time the loops ran up to 5 times
+    }
+    System.out.println("");           // once the star has been printed 5 times it will print a new line
+}                                     // then add one to i until i is equal to 4 I.E. 4 times
