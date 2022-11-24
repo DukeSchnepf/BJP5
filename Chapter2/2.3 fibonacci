@@ -1,4 +1,4 @@
-// Exercise 2.2 fibonacci
+// Exercise 2.3 fibonacci
 
 int f0 = 1;                                 // First Two Of The Sequence to start things
 int f1 = 1;
