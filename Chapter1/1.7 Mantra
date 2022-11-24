@@ -1,0 +1,16 @@
+//Excercise 1.7 Mantra
+
+public class Mantra
+{
+    public static void main(String[] args)
+    {
+        PrintText();
+        System.out.println("");
+        PrintText();
+    }
+    public static void PrintText()
+    {
+        System.out.println("There's one thing every coder must understand:");
+        System.out.println("The System.out.println command.");
+    }
+}
