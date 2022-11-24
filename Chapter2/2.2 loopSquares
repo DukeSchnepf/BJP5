@@ -1,0 +1,9 @@
+// Exercise 2.2 loopSquares]
+
+int a = 1;
+
+for(int i = 1; i <= 100; i+=a)
+{
+    a += 2;
+    System.out.print(i + " ");
+}
