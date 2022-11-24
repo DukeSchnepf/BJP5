@@ -1,0 +1,10 @@
+//Exercise 2.1 displacement
+
+double s = 12.0;
+double v = 3.5;
+double a = 9.8;
+int t = 10;
+double at = a*t;
+double S = s+v*t+0.5*a*t*t;
+
+System.out.println(S);
