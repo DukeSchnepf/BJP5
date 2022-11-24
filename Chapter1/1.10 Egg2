@@ -1,0 +1,33 @@
+//Excercise 1.10 Egg2
+
+public class Egg2
+{
+    public static void main(String[] args)
+    {
+        Top();
+        Bottom();
+        Mid();
+        Top();
+        Bottom();
+        Mid();
+        Bottom();
+        Top();
+        Mid();
+        Bottom();
+    }
+    public static void Top()
+    {
+        System.out.println("  _______");
+        System.out.println(" /       \\");
+        System.out.println("/         \\");
+    }
+    public static void Mid()
+    {
+        System.out.println("-\"-'-\"-'-\"-");
+    }
+      public static void Bottom()
+    {
+        System.out.println("\\         /");
+        System.out.println(" \\_______/");
+    }
+}
