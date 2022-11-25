@@ -1,0 +1,10 @@
+//Exercuse 2,8 spacesAndNumbers
+
+for(int i = 1; i <= 5; i++)       //Intial new line spacing will make 5 lines of code
+{
+for(int j = 5 - i; j > 0; j--)    //Will print spaces based on the value of 5 minus whatever I is currently at for the first line its 5 minus 1 which   
+System.out.print(" ");            //is 4 spaces in total then will goto the next for loop and print i if j is less than i 
+for(int j = 0; j < i; j++)
+System.out.print(i);
+System.out.println();
+}
