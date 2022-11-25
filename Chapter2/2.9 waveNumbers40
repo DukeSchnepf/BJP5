@@ -1,0 +1,22 @@
+// Exercise 2.9 waveNumbers 40
+
+for(int i = 1; i <= 40; i++)      //Prints out dashes 40 times then when the dashes are less than or equal to 40 it prints a new line
+    System.out.print("-");
+System.out.println();
+
+for(int i = 1; i <= 10; i++)      //Prints out ten of the four charecter sequence once it has printed ten it will print a new line
+    System.out.print("_-^-");
+System.out.println();
+
+for(int j = 0; j < 2; j++)        //Prints the included for loop two times then proceeds to a new line
+    {
+    for(int i = 1; i <= 10; i++)  //This for loop prints the remainder of i/10 which for 1 is 1 and so fourth until it reaches ten and
+        {                         //10/10 has no remainder so it will print zero, after it prints zero twice it then goes to the orginal
+        System.out.print(i%10);   //for loop and prints this sequence twice.
+        System.out.print(i%10);
+        }
+    } 
+System.out.println();
+
+for(int i = 1; i <= 40; i++)
+    System.out.print("-");
