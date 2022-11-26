@@ -1,0 +1,8 @@
+//Exercise 3.2 printPowersOf2
+
+public static void printPowersOf2(int k)
+{
+    System.out.print("1");                            //Prints the intial 1 required
+    for(int i = 1; i <= k; i++)                       //For statement sets i to one then proceeds to print 2 to the power of i then increases    
+        System.out.print(" " + (int)Math.pow(2, i));  //integer i to the next int until it reaches int k which in this case is 3 and 10
+}
