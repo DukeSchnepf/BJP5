@@ -1,0 +1,19 @@
+//Exercise 2.10 nmumbersOutput60
+
+for(int j = 0; j < 6; j++)               //Similar to the code below this code prints out spaces instead of the numbers and when it reaches
+    {                                    //What technically would be ten but in this case a zero it prints out the "|"
+    for(int i = 0; i < 9; i++)
+        {
+        System.out.print(" ");
+        }
+        System.out.print("|");
+    }
+System.out.println();             
+
+for(int j = 0; j < 6; j++)                //Stolen from 2.9 this code outputs 0-9 I simply changed it from printing twice to once
+    {                                     //and then changed the intial for statement to print the ten numbers 6 times to get us to 60
+    for(int i = 1; i <= 10; i++)
+        {
+        System.out.print(i%10);
+        }
+    }
