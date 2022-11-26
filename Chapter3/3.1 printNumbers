@@ -1,0 +1,7 @@
+//Exercise 3.1 printNumbers
+
+public static void printNumbers(int k)
+{
+    for(int i = 1; i <= k; i++)                   //Simple for statement will print I up to K which you pass through
+        System.out.print("[" + i + "]" + " ");    //Formatting like they wanted it to be done
+}
